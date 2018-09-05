@@ -2,6 +2,9 @@
     body {
     overflow: hidden;
   }
+  .hero h1 {
+  	color: red;
+  }
   }
 @media screen and (max-width: 1366px)
 {
