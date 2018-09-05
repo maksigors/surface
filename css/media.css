@@ -1,5 +1,11 @@
+@media (pointer: coarse) {
+    body {
+    overflow: hidden;
+  }
+  }
 @media screen and (max-width: 1366px)
 {
+	
 	.section-b {
 		/*height: 770px;*/
 	}
