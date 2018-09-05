@@ -118,9 +118,10 @@
 	}
 
 	.athlets-bg {
-		left: -340px;
+		left: -210px;
+		top: 90px;
 		width: 100%;
-		height: 92%;
+		height: 90%;
 		background-size: contain;
 	}
 

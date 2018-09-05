@@ -152,14 +152,15 @@ h1, h2 {
 }
 .athlets-bg {
 	position: absolute;
+	left: calc(70% - 980px);
 	z-index: 9;
-	width: calc(100% - 840px);
+	width: 100%;
 	height: 100%;
-	bottom: -10px;
+	bottom: -90px;
 
 	background-image: url(../images/footballer_566.png);
 	background-repeat: no-repeat;
-	background-position: calc(100% - 150px) bottom;	
+	//background-position: calc(100% - 150px) bottom;	
 }
 
 .article-wrap {
