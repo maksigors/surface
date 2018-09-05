@@ -291,15 +291,16 @@ h1, h2 {
 .players-bg {
 	position: absolute;
 	z-index: 9;
+	top: -20px;
 	left: 760px;
-	//width: calc(100% - 840px);
+	/*width: calc(100% - 840px);*/
 	width: 100%;
 	height: 100%;
-	//bottom: -50px;
 
 	background-image: url(../images/basketballer_991.png);
 	background-repeat: no-repeat;
-	//background-position: calc(100% - 150px) bottom;
+	/*background-position: 
+	calc(100% - 150px) bottom;*/
 	
 }
 
@@ -317,7 +318,7 @@ h1, h2 {
 } 
 
 .img-box {	
-	width: 50%;
+	width: 50vw;
 	height: 100%;
 	font-size: 0;
 	overflow: hidden;
@@ -329,7 +330,7 @@ h1, h2 {
 	height: 100%;
 }
 .section-b .article-wrap {
-
+	width: 50vw;
 	padding: 250px 8px 115px;
 	padding-left: 6vw;
 
@@ -343,6 +344,8 @@ h1, h2 {
 
 .square {
   position: absolute;
+  left: 50%;
+  top: 235px;
   transform: translateX(-50%);
   z-index: 9;
 
@@ -350,10 +353,10 @@ h1, h2 {
   justify-content: center;
   -ms-align-items: center;
   align-items: center;
-	/*width: 168px;*/
-	width: 8.7vw;
-  /*height: 155px;*/
-  height: 8vw;
+	width: 168px;
+	/*width: 8.7vw;*/
+  height: 155px;
+  /*height: 8vw;*/
 
   font-size: 24px;
   font-weight: bold;
@@ -362,11 +365,6 @@ h1, h2 {
   text-align: center;
 	color: rgb(245, 246, 247);
 	background-color: rgb(94, 66, 176);
-}
-
-.be-active .square {
-	left: calc(57% - 130px);
-  top: 11vw;
 }
 
 .square-number {
@@ -399,16 +397,8 @@ h1, h2 {
 }
 
 .contact .square {
-	left: calc(43% + 130px);
-  top: 11vw;
-}
-
-/* 
- ------  WORK ------- */
-
-.work .square {
-	left: calc(57% - 130px);
-  top: 11vw;
+/*	left: calc(43% + 130px);
+  top: 11vw;*/
 }
 
 /*_________  END SECTION-B _________*/
@@ -445,6 +435,7 @@ h1, h2 {
 	margin-bottom: 150px;
 }
 .logo-btn {
+	display: block;
 	width: 156px;
 	height: 141px;
 	margin-right: 25px;
