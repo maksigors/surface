@@ -138,16 +138,6 @@
 		overflow: hidden;
 	}
 
-	.article-wrap .article-title:before {
-		top: -2px;
-		left: 2px;
-		font-size: 14px;
-	}
-
-	.players .content-box3 .article-title:before {
-		color: #8765dd;
-	}
-
 	/*===================*/
  /*==== SECTION-B =====*/
 	.section-b.be-active,
@@ -444,6 +434,17 @@
 	.players .content-box3 {
 		background: #090c35;
 	}
+	.article-wrap .article-title:before {
+		top: -2px;
+		left: 2px;
+		font-size: 14px;
+	}
+
+	.players .content-box3 .article-title:before {
+		color: #8765dd;
+	}
+
+
 
 /*===== SECTION-B =====*/
 /*===== ========= =====*/
