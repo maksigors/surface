@@ -389,8 +389,6 @@
 		padding: 20px 0 50px;
 	}
 	.players .wrapper {
-		display: block;
-
 		margin: 0 auto;
 		height: 100%;
 		width: 100%;
@@ -399,15 +397,12 @@
 		padding: 0;
 	}
 	.players .main-title {
-		padding-bottom: 245px;
+		margin: 0;
+		margin-bottom: 245px;
 		padding-left: 20px;
 		line-height: 1;
 	}
-	.players .content-box1,
-	.players .content-box2,
-	.players .content-box3 {
-		justify-content: stretch;
-	}
+
 	.players-bg {
 		position: absolute;
 		left: 0;
@@ -421,14 +416,9 @@
 		background-position: 0 0;
 	}
 
-	.players .article-wrap {
-		padding: 0;
-	}
 
-	.players .main-title {
-		text-align: left;
-		margin: 0;
-	}
+
+
 
 
 } /* -= 360 =- */
