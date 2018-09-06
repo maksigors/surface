@@ -218,10 +218,10 @@
     
 }		/* - 560 - */
 
-@media screen and (min-width: 339px) and (max-width: 360px)
+@media screen and (min-width: 355px) and (max-width: 360px)
 {
 	.body {
-		max-width: 350px;
+		max-width: 360px;
 	}
 	.hero h1 {
 		color: purple;
