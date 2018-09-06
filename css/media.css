@@ -217,18 +217,12 @@
 
 }/* -= 768 =- */
 
-@media screen and (min-width: 420px) and (max-width: 990px)
+@media screen and (min-width: 490px)
 {
-  .body {
-		max-width: 560px;
-		overflow: hidden;
-		
+	.hero h1 {
+		color: yellow;
+		font-size: 30px;
 	}
-    .hero h1 {
-    	color: yellow;
-    	font-size: 60px;
-    	text-decoration: underline;
-    }
 }		/* - 560 - */
 @media screen and (max-width: 560px)
 {
