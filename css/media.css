@@ -241,21 +241,16 @@
 }		/* - 480 - */
 
 
-@media screen and (max-width: 360px)
+@media screen and (max-width: 420px)
 {
-	.body {
-		max-width: 360px;
-		overflow: hidden;
-	}
-	.hero h1 {
-		color: violet;
-	}
+
 }/* -= 360 =- */
 
-@media screen and (max-width: 355px)
+@media screen and (max-width: 360px)
 {
 	body {
-		
+/*		max-width: 360px;
+		overflow: hidden;*/
 	}
 	.wrapper {
 		padding: 0 20px;
