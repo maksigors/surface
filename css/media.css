@@ -213,10 +213,11 @@
 
 }/* -= 768 =- */
 
-@media screen and (min-width: 420px) and (max-width: 960px)
+@media screen and (min-width: 900px) and (max-width: 960px)
 {
     .hero h1 {
     	color: yellow;
+    	font-style: italic;
     }
 }		/* - 560 - */
 @media screen and (max-width: 560px)
