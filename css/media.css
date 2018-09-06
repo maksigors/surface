@@ -32,6 +32,9 @@
 
 @media screen and (max-width: 1280px)
 {
+	.hero {
+		background-image: url(../images/football_1280.jpg);
+	}
 	.hero h1 {
 		font-size: 70px;
 		line-height: 80px;
@@ -60,6 +63,9 @@
 
 @media screen and (max-width: 768px)
 {
+	.hero {
+		background-image: url(../images/football_767.jpg);
+	}
 	.wrapper {
 		padding-left: 25px;
 		padding-right: 25px;
@@ -130,6 +136,16 @@
 		height: 100%;
 		background-size: contain;
 		overflow: hidden;
+	}
+
+	.article-wrap .article-title:before {
+		top: -2px;
+		left: 2px;
+		font-size: 14px;
+	}
+
+	.players .content-box3 .article-title:before {
+		color: #8765dd;
 	}
 
 	/*===================*/
@@ -346,9 +362,10 @@
 		top: 100px;
 		bottom: 0;
 		z-index: 9;
-		width: 180px;
-		height: 280px;
+		width: 192px;
+		height: 281px;
 		margin: 0 auto;
+		background-image: url(../images/footballer_192.png);
 		background-position: 0 0;
 	}
 
@@ -368,13 +385,17 @@
 		font-size: 23px;
 		line-height: 35px;
 	}
+	.article-text {
+		font-size: 15px;
+		line-height: 18px;
+	}
 	.content-box1,
 	.content-box2,
 	.content-box3 {
 		padding: 50px 0;
 	}
 	.content-box1 {
-		padding-top: 0;
+		padding: 0;
 	}
 	.content-box1 .wrapper {
 		padding: 0px;
@@ -386,7 +407,7 @@
 /*===== PLAYERS =====*/
 
 	.players {
-		padding: 20px 0 50px;
+		padding: 20px 0 0;
 	}
 	.players .wrapper {
 		margin: 0 auto;
@@ -402,6 +423,9 @@
 		padding-left: 20px;
 		line-height: 1;
 	}
+	.box1-wrap {
+		padding-bottom: 50px;
+	}
 
 	.players-bg {
 		position: absolute;
@@ -410,14 +434,51 @@
 		top: 90px;
 		bottom: 0;
 		z-index: 9;
-		width: 300px;
+		width: 302px;
 		height: 250px;
 		margin: 0 auto;
+		background-image: url(../images/basketballer_302.png);
 		background-position: 0 0;
 	}
 
+	.players .content-box3 {
+		background: #090c35;
+	}
 
+/*===== SECTION-B =====*/
+/*===== ========= =====*/
 
+.section-b{
+	height: 350px;
+	width: 100%;
+
+	/*border: 2px dotted red;*/
+} 
+
+.img-box {	
+	width: 50vw;
+	height: 100%;
+	font-size: 0;
+	overflow: hidden;
+
+	/*border: 1px solid blue;*/
+}
+.img-box img {
+	width: auto;
+	height: 100%;
+}
+.section-b .article-wrap {
+	width: 50vw;
+	padding: 250px 8px 115px;
+	padding-left: 6vw;
+
+}
+.section-b .main-title  {	
+	color: rgba(193, 193, 193, .4);
+}
+.section-b .article-text {
+	font-size: 24px;
+}
 
 
 
