@@ -213,7 +213,7 @@
 
 }/* -= 768 =- */
 
-@media screen and (min-width: 850px) and (max-width: 1060px)
+@media screen and (min-width: 750px) and (max-width: 1060px)
 {
   .body {
 		max-width: 960px;
