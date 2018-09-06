@@ -93,7 +93,8 @@
 	}
 
 	.article-wrap {
-		width: 450px;
+		width: 100%;
+		max-width: 450px;
 	}
 
 	.athlets .article-wrap,
@@ -323,40 +324,49 @@
 		height: 100%;
 		width: 100%;
 		max-width: 320px;
-}
+	}
+	.athlets .main-title {
+		margin-bottom: 245px;
+	}
 
-.athlets-bg {
-	position: absolute;
-	left: 0;
-	top: 0;
-	bottom: 0;
-	z-index: 9;
-	width: 180px;
-	height: 280px;
-	
+	.athlets-bg {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 9;
+		width: 180px;
+		height: 280px;
+		
+		background-image: url(../images/footballer_566.png);
+		background-repeat: no-repeat;
+		//background-position: calc(100% - 150px) bottom;	
+	}
 
-	background-image: url(../images/footballer_566.png);
-	background-repeat: no-repeat;
-	//background-position: calc(100% - 150px) bottom;	
-}
+	.article-wrap {
+		width: 100%;
 
-.article-wrap {
-	width: 760px;
+	}
 
-}
+	.athlets .article-wrap {
+		padding-left: 15px;
+	}
 
-.athlets .article-wrap {
-	padding-left: 15px;
-}
+	.article-title {
+		position: relative;
+		margin-bottom: 25px;
+		padding-left: 30px;
 
-.article-title {
-	position: relative;
-	margin-bottom: 25px;
-	padding-left: 30px;
-
-	font-size: 23px;
-	line-height: 35px;
-}
-
+		font-size: 23px;
+		line-height: 35px;
+	}
+	.content-box1,
+	.content-box2,
+	.content-box3 {
+		padding: 55px 0;
+	}
+	.content-box1 {
+		padding-top: 0;
+	}
 
 }
