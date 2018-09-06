@@ -110,11 +110,15 @@
 	}
 
 	.athlets-bg {
-		left: -210px;
+		left: calc(100% - 840px);
+		//left: 0;
 		top: 90px;
+		//z-index: -1;
 		width: 100%;
 		height: 90%;
 		background-size: contain;
+		background-position: -120px 0;
+		overflow: hidden;
 	}
 	.players-bg {
 		left: 320px;
