@@ -217,7 +217,7 @@
 {
     .hero h1 {
     	color: yellow;
-    	font-style: italic;
+    	font-size: 40px;
     }
 }		/* - 560 - */
 @media screen and (max-width: 560px)
