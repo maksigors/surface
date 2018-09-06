@@ -217,7 +217,7 @@
 
 }/* -= 768 =- */
 
-@media screen and (min-width: 764px) and (max-width: 767px)
+@media screen and (min-width: 760px) and (max-width: 764px)
 {
 	.hero h1 {
 		color: yellow;
