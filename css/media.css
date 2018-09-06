@@ -17,7 +17,11 @@
 	.athlets-bg {
 		width: calc(100% - 500px);
 	}
-
+	.athlets .wrapper,
+	.players .wrapper {
+		width: 100%;
+		max-width: 100%;
+	}
 	.players-bg {
 		left: 500px;
 		width: 100%;
@@ -60,6 +64,9 @@
 		padding-left: 25px;
 		padding-right: 25px;
   }
+  .article-wrap {
+		width: 100%;
+	}
   .hero {
   	padding: 40px 0 90px;
   }
@@ -92,14 +99,10 @@
 		padding: 40px 0 40px;
 	}
 
-	.article-wrap {
-		width: 100%;
-		max-width: 450px;
-	}
-
 	.athlets .article-wrap,
 	.players .article-wrap {
 		padding: 0;
+		width: 450px;
 	}
 	.article-title {
 		font-size: 32px;
@@ -239,13 +242,17 @@
 		font-size: 10vw;
 	}
 
+	.athlets .article-wrap,
+	.players .article-wrap {
+		width: 100%;
+	}
 }		/* - 480 - */
 
 
 @media screen and (max-width: 420px)
 {
 
-}/* -= 360 =- */
+}/* -= 420 =- */
 
 @media screen and (max-width: 360px)
 {
@@ -318,38 +325,39 @@
 	}
 /*===== ATHLETS =====*/
 	.athlets {
-		padding: 25px 0 50px;
+		padding: 25px 0 0;
 	}
 	.athlets .wrapper {
+		display: block;
+
+		margin: 0 auto;
 		height: 100%;
 		width: 100%;
-		max-width: 320px;
 	}
 	.athlets .main-title {
 		margin-bottom: 245px;
+		padding-left: 20px;
 	}
 
 	.athlets-bg {
 		position: absolute;
 		left: 0;
-		top: 0;
+		right: 0;
+		top: 100px;
 		bottom: 0;
 		z-index: 9;
 		width: 180px;
 		height: 280px;
-		
-		background-image: url(../images/footballer_566.png);
-		background-repeat: no-repeat;
-		//background-position: calc(100% - 150px) bottom;	
+		margin: 0 auto;
+		background-position: 0 0;
 	}
 
 	.article-wrap {
 		width: 100%;
-
 	}
 
 	.athlets .article-wrap {
-		padding-left: 15px;
+		padding: 0;
 	}
 
 	.article-title {
@@ -363,10 +371,64 @@
 	.content-box1,
 	.content-box2,
 	.content-box3 {
-		padding: 55px 0;
+		padding: 50px 0;
 	}
 	.content-box1 {
 		padding-top: 0;
 	}
+	.content-box1 .wrapper {
+		padding: 0px;
+	}
+	.box1-wrap {
+		padding: 80px 20px 0;
+		background-color: #fafafa;
+	}
+/*===== PLAYERS =====*/
 
-}
+	.players {
+		padding: 20px 0 50px;
+	}
+	.players .wrapper {
+		display: block;
+
+		margin: 0 auto;
+		height: 100%;
+		width: 100%;
+	}
+	.players .content-box1 {
+		padding: 0;
+	}
+	.players .main-title {
+		padding-bottom: 245px;
+		padding-left: 20px;
+		line-height: 1;
+	}
+	.players .content-box1,
+	.players .content-box2,
+	.players .content-box3 {
+		justify-content: stretch;
+	}
+	.players-bg {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 90px;
+		bottom: 0;
+		z-index: 9;
+		width: 300px;
+		height: 250px;
+		margin: 0 auto;
+		background-position: 0 0;
+	}
+
+	.players .article-wrap {
+		padding: 0;
+	}
+
+	.players .main-title {
+		text-align: left;
+		margin: 0;
+	}
+
+
+} /* -= 360 =- */
