@@ -108,22 +108,13 @@
 	.players .article-wrap {
 		padding: 0;
 	}
-
 	.article-title {
 		font-size: 32px;
 		line-height: 32px;
 	}
-
 	.article-text {
 		font-size: 16px;
 		line-height: 28px;
-	}
-
-	.players-bg {
-		left: 320px;
-		width: 110%;
-		height: 100%;
-		background-size: contain;
 	}
 
 	.athlets-bg {
@@ -132,6 +123,13 @@
 		width: 100%;
 		height: 90%;
 		background-size: contain;
+	}
+	.players-bg {
+		left: 320px;
+		width: 100%;
+		height: 100%;
+		background-size: contain;
+		overflow: hidden;
 	}
 
 	/*===================*/
