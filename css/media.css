@@ -213,10 +213,10 @@
 
 }/* -= 768 =- */
 
-@media screen and (min-width: 630px) and (max-width: 650px)
+@media screen and (min-width: 560px) and (max-width: 630px)
 {
   .body {
-		max-width: 640px;
+		max-width: 560px;
 		overflow: hidden;
 	}
     .hero h1 {
