@@ -217,7 +217,7 @@
 
 }/* -= 768 =- */
 
-@media screen and (min-width: 770px) and (max-width: 780px)
+@media screen and (min-width: 760px) and (max-width: 764px)
 {
 	.hero h1 {
 		color: yellow;
@@ -230,7 +230,7 @@
     
 }		/* - 560 - */
 
-@media screen and (min-width: 355px) and (max-width: 360px)
+@media screen and (min-width: 359px) and (max-width: 360px)
 {
 	.body {
 		max-width: 360px;
@@ -241,7 +241,7 @@
 	}
 }/* -= 360 =- */
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: 359px)
 {
 
 		.hero h1 {
