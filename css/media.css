@@ -137,7 +137,6 @@
 	}
 
 	.players-bg {
-		border: 1px solid red;
 		left: 300px;
 		top: -30px;
 		width: 460px;
@@ -238,10 +237,19 @@
 
 }/* -= 768 =- */
 
-@media screen and (max-width: 600px)
+@media screen and (min-width: 767px) (max-width: 600px)
 {
   .hero h1 {
 		font-size: 10vw;
+	}
+	.players-bg, .athlets-bg {
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.athlets .article-wrap,
+	.players .article-wrap {
+		width: 100%;
 	}
 }		/* - 600 - */
 
