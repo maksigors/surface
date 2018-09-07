@@ -15,7 +15,7 @@
 	} 
 
 	.athlets-bg {
-		width: calc(100% - 500px);
+		//width: calc(100% - 500px);
 	}
 	.athlets .wrapper,
 	.players .wrapper {
@@ -124,30 +124,28 @@
 	}
 
 	.athlets-bg {
-		border: 1px solid red;
-		left: calc(100% - 950px);
+		left: calc(100% - 920px);
 		top: 0;
 		width: 600px;
 		height: 800px;
 		background-image: url(../images/footballer_497.png);
 		background-size: contain;
-		//background-position: -180px 80px;
-		background-position: 0px 80px;
+		/*background-position: -180px 80px;*/
+		background-position: 0px 0px;
 		
 		overflow-x: hidden;
 	}
 
 	.players-bg {
 		border: 1px solid red;
-		left: 0;
-		top: 0;
-		/*width: 435px;*/
-		width: 100%;
+		left: 300px;
+		top: -30px;
+		width: 460px;
 		height: 600px;
 
 		background-image: url(../images/basketballer_436.png);
 		background-size: contain;
-		background-position: 330px 0;
+		//background-position: 330px 0;
 		/*overflow: hidden;*/
 	}
 
