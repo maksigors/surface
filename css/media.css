@@ -368,6 +368,7 @@
 		margin: 0 auto;
 		background-image: url(../images/footballer_192.png);
 		background-position: 0 0;
+		overflow: visible;
 	}
 
 	.article-wrap {
@@ -440,6 +441,7 @@
 		margin: 0 auto;
 		background-image: url(../images/basketballer_302.png);
 		background-position: 0 0;
+		overflow: visible;
 	}
 
 	.players .content-box3 {
