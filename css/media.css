@@ -124,15 +124,16 @@
 	}
 
 	.athlets-bg {
-		/*left: calc(100% - 920px);*/
-		left: 0;
+		left: -550px;
 		top: 0;
 		width: 600px;
 		height: 800px;
 		background-image: url(../images/footballer_497.png);
 		background-size: contain;
-		background-position: -180px 80px;
-		/*background-position: 0px 0px;*/
+		/*background-position: -180px 80px;*/
+		background-position: right 0px;
+		overflow: hidden;
+		border: 1px solid red;
 	}
 
 	.players-bg {
