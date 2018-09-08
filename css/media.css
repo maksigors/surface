@@ -243,89 +243,81 @@
 
 @media screen and (max-width: 766px)
 {
-  .hero h1 {
+/*  .hero h1 {
 		font-size: 10vw;
 	}
 	.players-bg, .athlets-bg {
 		left: 0;
 		top: 0;
-		display: none;
+		//display: none;
 	}
 	.athlets .article-wrap,
 	.players .article-wrap {
 		width: 100%;
-	}
+	}*/
 }		/* - 600 - */
 
-@media screen and (max-width: 480px)
+
+@media screen and (max-width: 600px)
 {
-  .footer .main-title {
-		font-size: 10vw;
-	}
-
-	.athlets .article-wrap,
-	.players .article-wrap {
-		width: 100%;
-	}
-}		/* - 480 - */
-
-
-@media screen and (max-width: 420px)
-{
-
-}/* -= 420 =- */
-
-@media screen and (max-width: 360px)
-{
-	body {
-/*		max-width: 360px;
-		overflow: hidden;*/
-	}
 	.wrapper {
 		padding: 0 20px;
 	}
 
 	.logo-img {
-		width: 140px;
-		height: 40px;
+		width: 170px;
+		height: 50px;
 	}
 
 	.main-title {
-		//margin-bottom: 10px;
 		font-size: 50px;
 		line-height: 60px;
 	}
 
 	.btn {
-		width: 280px;
-		height: 35px;
+		width: 320px;
+		height: 50px;
 		margin: 0;
-		padding: 7px 0px;
-		padding-left: 30px;
+		padding: 10px 0px;
+		padding-left: 40px;
 
-		font-size: 8px;
+		font-size: 10px;
 		line-height: 1.5;
 		text-align: center;
 		
-		border-radius: 17px;
+		border-radius: 25px;
 	}
 
 	.btn-app {
 		-webkit-background-size: 25px;
-		background-size: 25px;
-		background-position: 80px 5px;
+		background-size: 30px;
+		background-position: 85px 10px;
 	}
 	.btn-google {
 		-webkit-background-size: 25px;
-		background-size: 25px;
-		background-position: 84px 5px;
+		background-size: 30px;
+		background-position: 90px 10px;
 	}
 
 /*===== HERO =====*/
 	.hero {
 		width: 100%;
-		height: 568px;
-		padding: 30px 0 80px;
+		min-height: 580px;
+		height: 100vh;
+		padding: 30px 0 9vw;
+	}
+	.hero .wrapper {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 	.hero h1 {
 		color: #ffffff;
@@ -339,16 +331,15 @@
 		margin-left: 35px;
 	}
 	.hero-title h1 {
-		font-size: 28px;
-		line-height: 32px;
+		font-size: 50px;
+		line-height: 60px;
 	}
 	.hero h1.left {
 		margin: 0;
 		margin-bottom: 30px;
 	}
 	.hero h1.right {
-		margin-right: 20px;
-		margin-bottom: 80px;
+		margin: 0;
 	}
 /*===== ATHLETS =====*/
 	.athlets {
@@ -381,11 +372,8 @@
 		background-position: 0 0;
 	}
 
-	.article-wrap {
-		width: 100%;
-	}
-
 	.athlets .article-wrap {
+		width: 100%;
 		padding: 0;
 	}
 
@@ -413,6 +401,7 @@
 		padding: 0px;
 	}
 	.box1-wrap {
+		width: 100%;
 		padding: 80px 20px 0;
 		background-color: #fafafa;
 	}
@@ -442,7 +431,7 @@
 	.players-bg {
 		display: block;
 		position: absolute;
-		right: 0;
+		left: 0;
 		top: 90px;
 		z-index: 9;
 		width: 302px;
@@ -459,6 +448,10 @@
 
 	.players .content-box3 {
 		background: #090c35;
+	}
+	.players .article-wrap {
+		width: 100%;
+		padding: 0;
 	}
 	.article-wrap .article-title:before {
 		top: -2px;
@@ -554,7 +547,7 @@
 	width: 75px;
 	height: 75px;
 	margin: 0;
-	margin-bottom: 50px;
+	margin-right: 20px;
 	background-image: url(../images/download.png);
 	-webkit-background-size: cover;
 	background-size: cover;	
@@ -576,6 +569,73 @@
 	margin-top: 60px;
 }
 
-
-
 } /* -= 360 =- */
+
+
+@media screen and (max-width: 480px)
+{
+  .wrapper {
+		padding: 0 20px;
+	}
+
+	.btn {
+		width: 280px;
+		height: 35px;
+		margin: 0;
+		padding: 10px 0px;
+		padding-left: 30px;
+
+		font-size: 8px;
+		line-height: 1.2;
+		text-align: center;
+		
+		border-radius: 17px;
+	}
+
+	.btn-app {
+		-webkit-background-size: 25px;
+		background-size: 25px;
+		background-position: 80px 5px;
+	}
+	.btn-google {
+		-webkit-background-size: 25px;
+		background-size: 25px;
+		background-position: 84px 5px;
+	}
+/*===== HERO =====*/
+  .hero {
+		width: 100%;
+		height: 568px;
+		min-height: 568px;
+		padding: 30px 0 50px;
+	}
+	.hero h1 {
+		color: #ffffff;
+	}
+	.hero .logo {
+		margin-bottom: 125px;
+	}
+	.hero-title-sport {
+		display: block;
+		text-align: left;
+		margin-left: 35px;
+	}
+	.hero-title h1 {
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.hero h1.left {
+		margin: 0;
+		margin-bottom: 30px;
+	}
+	.hero h1.right {
+		margin-right: 20px;
+		margin-bottom: 80px;
+	}
+
+	.logo-btn {
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+}		/* - 480 - */
